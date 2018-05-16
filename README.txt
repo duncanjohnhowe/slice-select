@@ -1,3 +1,7 @@
+
+https://github.com/duncanjohnhowe/slice-select
+Should have contain the latest au and pulse programs.
+
 These files should be placed in the appropriate location in topspin.
 ********************
 WARRANTY/disclaimer
