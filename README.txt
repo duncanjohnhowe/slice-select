@@ -106,3 +106,10 @@ S8.2.7 Running a 1D experiment
 The 2D result can be processed with the commands ‘xf2;xf2m’ This can then be used to choose a 1D slice to run. In Topspin, go into the multiple display mode and scroll through the increments. Choose the increment with the sharpest, most intense peaks; the ‘spoffs’ value for this increment can be found in the logfile/title.
 
 Go to experiment 999, then use the command edc (or wra n) to copy to a new experiment. Set the spoffs, and change any other parameters such as NS and D1.
+
+S8 Files
+
+The following Bruker Topspin v3.2+ programs (as additional SI attachments)  are included to implement the experiments described in section S8:-
+•	Au-programs/slice-set-au – Implements z-mapping of an NMR sample.
+•	Au-programs/slice-proc-au – Processes a z-map to attempt automatical removal of phase distortions.
+•	Pulse-program/slice-select – Spectrometer pulse program to acquire a ‘slice’ from an NMR tube; used to create a z-map.
